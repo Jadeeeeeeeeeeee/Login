@@ -1,0 +1,135 @@
+html{
+     height: 100%;
+     width : 100%;
+}
+
+body{
+     height: 98%;
+     width : 98%;
+     background-color:white;
+}
+
+#wrapper{
+    height: 100%;
+    width : 100%;
+}
+
+#Login{
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     width: 400px;
+     height: 400px;
+}
+
+
+#UserName{
+     position: absolute  ;
+     z-index: 5;
+     margin-top: 20px;
+     height: 25px;
+     width: 200px;
+     position: absolute;
+     left: 50%;
+     top: 20%;
+     transform: translate(-50%,-50%);
+     visibility: hidden;
+     border-width: 0px;
+     border-radius: 5px;
+}
+
+#password:focus{
+     outline: none;
+}
+
+#password{
+     z-index: 5;
+     margin-top: 20px;
+     height: 25px;
+     width: 200px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+     border-width: 0px;
+     border-radius: 5px;
+}
+
+#password:focus{
+     outline: none;
+}
+
+#Email{
+     position: absolute;
+     left: 50%;
+     top: 30%;
+     transform: translate(-50%,-30%);
+     z-index: 5;
+  height: 25px;
+  width: 200px;
+  border-width: 0px;
+  border-radius: 5px;
+}
+
+#Email:focus{
+     outline: none;
+}
+
+#bigBlock{
+     position: absolute;
+     z-index: -1;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%,-50%);
+      background:linear-gradient(135deg, #c0c6ff, rgb(84, 84, 152));
+     height: 400px;
+     width: 400px;
+     border-radius: 60px;
+     border: 2px solid black;
+}
+
+#LoginSwitch{
+     position: absolute;
+     top: 5%;
+     left: 20%;
+     height: 25px;
+     width: 100px;
+     background-color: white;
+     border-radius: 5px;
+     border-width: 0px;
+}
+
+#SignUp{
+     position: absolute;
+     top: 5%;
+     right: 20%;
+     height: 25px;
+     width: 100px;
+     background-color: white;
+     border-radius: 5px;
+     border-width: 0px;
+}
+
+#logginFinish{
+     position: absolute;
+     top: 80%;
+     left: 50%;
+     transform: translate(-50%,-80%);
+     height: 40px;
+     width: 200px;
+     background-color: white;
+     border-width: 0px;
+}
+
+#SignUpFinish{
+     position: absolute;
+     top: 80%;
+     left: 50%;
+     transform: translate(-50%,-80%);
+     height: 40px;
+     width: 200px;
+     visibility: hidden;
+     background-color: white;
+     border-width: 0px;
+}
